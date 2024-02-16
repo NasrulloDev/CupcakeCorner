@@ -1,5 +1,5 @@
 //
-//  AddressView.swift
+//  CheckOutView.swift
 //  CupcakeCorner
 //
 //  Created by Насрулло Исмоилжонов on 16/02/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AddressView: View {
+struct CheckOutView: View {
     var order: Order
     
     var body: some View {
@@ -16,5 +16,5 @@ struct AddressView: View {
 }
 
 #Preview {
-    AddressView(order: Order())
+    CheckOutView(order: Order())
 }
