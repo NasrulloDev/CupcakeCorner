@@ -45,7 +45,7 @@ class Order: Codable {
     
     var hasValidAddress: Bool {
         if name.replacingOccurrences(of: " ", with: "").isEmpty || streetAddress.replacingOccurrences(of: " ", with: "").isEmpty || city.replacingOccurrences(of: " ", with: "").isEmpty || zip.replacingOccurrences(of: " ", with: "").isEmpty {
-            return falseA
+            return false
         }
         
         return true
