@@ -13,7 +13,7 @@ struct ContentView: View {
         NavigationStack{
             Form{
                 Section{
-                    Picker("Select your ake type", selection: $order.type){
+                    Picker("Select your cake type", selection: $order.type){
                         ForEach(Order.types.indices){
                             Text(Order.types[$0])
                         }
